@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../../assets/images/wipdata-logo.png'
+import logo from '../../assets/images/aceva.png'
 import burgerMenu from '../../assets/images/icons/menu-burger.svg'
 import burgerMenu1 from '../../assets/images/icons/menu.png'
 import burgerMenu2 from '../../assets/images/icons/menu-line.png'
@@ -34,7 +34,6 @@ function Header() {
     navigate('/')
   }
 
-
   return (
     <section className={isScrolled ? 'header-section active' : 'header-section'}>
       <div className='container'>
@@ -45,8 +44,8 @@ function Header() {
           <div className='login-logo header-logo'>
               <Link to="/">
                 <img src={logo} alt="site logo" />
+                {/* <h2><span className='orangered'></span> ACEVA</h2> */}
               </Link>
-            <h2><span className='orangered'></span> ACEVA</h2>
           </div>
 
           {/* mobile burger menu */}
@@ -60,9 +59,6 @@ function Header() {
             <ul className='navbar-wrappper'>
               <li className='nav-item'><Link to='/' className='nav-link'>Home</Link></li>
               <li className='nav-item'><Link to='/pricing' className='nav-link'>Pricing</Link></li>
-              <li className='nav-item'>
-                { isUser ? <Link onClick={handleLogout} to='#' className='nav-link logout-link'>Logout</Link> : <Link to='/login' className='nav-link'>LOGIN</Link> }
-              </li>
               <li className='nav-item'><Link to='/blog' className='nav-link'>Blog</Link></li>
 
               {
@@ -148,6 +144,9 @@ function Header() {
                   </>
                : ""
               }
+              <li className='nav-item'>
+                { isUser ? <Link onClick={handleLogout} to='#' className='nav-link logout-link'>Logout</Link> : <Link to='/login' className='nav-link'>LOGIN</Link> }
+              </li>
               
             </ul>
           </nav>

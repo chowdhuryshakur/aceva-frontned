@@ -328,7 +328,7 @@
     padding: 5px 10px;
   }
   .login-logo img {
-    width: 40px;
+    width: 75px;
   }
   .login-logo h2 {
     font-size: 23px;
@@ -552,6 +552,14 @@
   }
   .author-sidebar {
     padding: 20px 10px;
+    flex-direction: row;
+  }
+  .author-excerpt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
   }
   .author-section {
     margin: 50px 0px;
@@ -570,6 +578,61 @@
   .desktop-hide{
     display: none;
   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 992px) {
+  .container {
+    max-width: 94%;
+    margin: 0px auto;
+  }
+  .hero-thumb {
+    display: none;
+  }
+  .hero-content-wrap {
+    color: white;
+    height: unset;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 90%;
+    padding: 40px 0px;
+  }
+  .what-we-do-wrapper {
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.app-progress-wrapper {
+  grid-gap: 60px;
+  flex-direction: column;
+}
+.app-progress-thumb {
+  width: 65%;
+  margin: auto;
+}
+.app-progress-content {
+  width: 100%;
+  max-width: 90%;
+}
+.partner-section {
+  padding: 20px 0px;
+}
+.faq-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  align-items: flex-start;
+}
+.abs-leaf {
+  width: 154px;
+  position: absolute;
+  top: -72px;
+  right: -27px;
+  transform: rotate(-35deg);
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

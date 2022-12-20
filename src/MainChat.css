@@ -769,7 +769,13 @@ header {
   margin: unset !important;
 }
 .header-logo img {
-  border-radius: 7px;
+  object-fit: contain;
+}
+.header-logo a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-gap: 10px;
 }
 nav {
 }
@@ -1052,7 +1058,7 @@ input:focus + svg {
   margin: 0px auto;
 }
 .login-logo img {
-  width: 50px;
+  width: 80px;
 }
 .login-logo h2 {
   font-family: Montserrat;
@@ -2898,6 +2904,7 @@ section.dashboard-section {
   font-family: 'Montserrat';
   line-height: 29px;
   font-size: 17px;
+  font-weight: 400;
 }
 .blog-details-author span {
   color: var(--blackColor);
@@ -3051,6 +3058,7 @@ section.dashboard-section {
   padding: 10px;
   border-radius: 5px;
   background: white;
+  margin-bottom: 20px;
 }
 .special-offer-for-country p {
   font-size: 14px;
@@ -3112,7 +3120,16 @@ section.dashboard-section {
   transition: all 0.3s ease-in-out;
   border-bottom: 3px solid transparent;
   cursor: pointer;
+  user-select: none;
+  margin-bottom: 65px;
 }
+
+.swiper-pagination-bullet {
+  background: var(--purpleColor) !important;
+  width: 15px !important; 
+  height: 15px !important;
+}
+
 .testi-item:hover {
   border-bottom: 3px solid var(--purpleColor);
 }
@@ -3315,4 +3332,31 @@ section.dashboard-section {
 .faq-description p{
   color: black;
   transition: all 0.3s ease-in-out;
+}
+.single-item-wrap {
+
+}
+
+/* page */
+.page-details-wrapper {
+  margin: auto;
+}
+.page-details-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  grid-gap: 10px;
+}
+.page-details-title h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+.single-details-thumb {
+  height: 250px;
+}
+.dot {
+  width: 30px;
+  height: 10px;
+  border-radius: 30px;
+  background: var(--brand-color);
 }

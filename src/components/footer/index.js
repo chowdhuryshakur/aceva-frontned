@@ -51,19 +51,19 @@ function index() {
             <div className="footer-item-list">
               <ul>
                 <li>
-                  <Link to="#">About Us</Link>
+                  <Link to="/page/about-us">About Us</Link>
                 </li>
                 <li>
-                  <Link to="#">Contact Us</Link>
+                  <Link to="/page/about-us">Contact Us</Link>
                 </li>
                 <li>
-                  <Link to="#">Privecy Policy</Link>
+                  <Link to="/page/about-us">Privecy Policy</Link>
                 </li>
                 <li>
-                  <Link to="#">Terms & Conditions</Link>
+                  <Link to="/page/about-us">Terms & Conditions</Link>
                 </li>
                 <li>
-                  <Link to="#">Carriar</Link>
+                  <Link to="/page/about-us">Carriar</Link>
                 </li>
               </ul>
             </div>
@@ -77,19 +77,19 @@ function index() {
             <div className="footer-item-list">
               <ul>
                 <li>
-                  <Link to="#">Business Intelligence</Link>
+                  <a target="_blank" href='https://www.wipdata.com/bi/'>Business Intelligence</a>
                 </li>
                 <li>
-                  <Link to="#">Robotic Process Automation</Link>
+                  <a target="_blank" href="https://www.wipdata.com/rpa/">Robotic Process Automation</a>
                 </li>
                 <li>
-                  <Link to="#">AI Chatbot NLP</Link>
+                  <a target="_blank" href="https://www.wipdata.com/ai-chatbots-nlp/">AI Chatbot NLP</a>
                 </li>
                 <li>
-                  <Link to="#">Terms & Conditions</Link>
+                  <Link to="/page/about-us">Terms & Conditions</Link>
                 </li>
                 <li>
-                  <Link to="#">Carriar</Link>
+                  <Link to="/page/about-us">Carriar</Link>
                 </li>
               </ul>
             </div>

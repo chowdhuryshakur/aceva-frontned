@@ -7,6 +7,7 @@ import CategoryScreen from './screens/CategoryScreen';
 import DashboardScreen from './screens/DashboardScreen';
 import HomeScreen from './screens/HomeScreen';
 import LoginScreen from './screens/LoginScreen';
+import PageDetailsScreen from './screens/PageDetailsScreen';
 import PricingScreen from './screens/PricingScreen';
 import ProductScreen from './screens/ProductScreen';
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/category/:id" element={<CategoryScreen />} />
         <Route path="/author/:id" element={<AuthorScreen />} />
         <Route path="/blog/:id" element={<BlogDetails />} />
+        <Route path="/page/:id" element={<PageDetailsScreen />} />
       </Routes>
     </BrowserRouter>
   );
