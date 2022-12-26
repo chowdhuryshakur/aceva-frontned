@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AcevaScreen from './screens/AcevaScreen';
 import AdminScreen from './screens/AdminScreen';
 import AuthorScreen from './screens/AuthorScreen';
 import BlogDetails from './screens/BlogDetails';
@@ -31,6 +32,7 @@ function App() {
         <Route path="/author/:id" element={<AuthorScreen />} />
         <Route path="/blog/:id" element={<BlogDetails />} />
         <Route path="/page/:id" element={<PageDetailsScreen />} />
+        <Route path="/aceva" element={<AcevaScreen />} />
       </Routes>
     </BrowserRouter>
   );

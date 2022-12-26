@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 // images
 import bg from '../../assets/images/bg/bg.png'
-import logo from '../../assets/images/wipdata-logo.png'
+import logo from '../../assets/images/aceva.png'
 import SocialMedia from '../SocialMedia'
 
 function index() {
@@ -25,9 +25,9 @@ function index() {
               <Link to="/">
                 <img src={logo} alt="site logo" />
               </Link>
-              <h2>
+              {/* <h2>
                 <span className="orangered">Wip</span> Data
-              </h2>
+              </h2> */}
             </div>
 
             {/* detials */}

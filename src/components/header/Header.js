@@ -58,95 +58,96 @@ function Header() {
             <BsXLg onClick={() => setMenuToggle(!menuToggle)} className='cross-mobile-navbar desktop-hide' />
             <ul className='navbar-wrappper'>
               <li className='nav-item'><Link to='/' className='nav-link'>Home</Link></li>
+              <li className='nav-item'><Link to='/aceva' className='nav-link'>ACEVA</Link></li>
               <li className='nav-item'><Link to='/pricing' className='nav-link'>Pricing</Link></li>
               <li className='nav-item'><Link to='/blog' className='nav-link'>Blog</Link></li>
 
               {
-                isUser ?
-                  <>
-                    <li className='nav-item'><Link to='/dashboard' className='nav-link'>User Dashboard</Link></li>
-                    <li className='nav-item admin-dashboard-li'><Link to='/admin' className='nav-link admin-dashboard-btn'>Chat Admin</Link></li>
+              //   isUser ?
+              //     <>
+              //       <li className='nav-item'><Link to='/dashboard' className='nav-link'>User Dashboard</Link></li>
+              //       <li className='nav-item admin-dashboard-li'><Link to='/admin' className='nav-link admin-dashboard-btn'>Chat Admin</Link></li>
 
-                    {/* notification menu */}
-                    <li className='nav-item' onClick={() => setNotifyToggle(!notifyToggle)}>
-                    { !notifyToggle ?
-                      <div className='notification-button'>
-                        <FaBell /> 
-                        <span className="ripple-wrap">
-                          <span className="ripple"></span>
-                          <span className="ripple"></span>
-                          <span className="ripple"></span>
-                          </span>
-                      </div>
-                      : 
-                      <div className='notification-cancel'>
-                          <BsXLg /> 
-                      </div>
-                      }
+              //       {/* notification menu */}
+              //       <li className='nav-item' onClick={() => setNotifyToggle(!notifyToggle)}>
+              //       { !notifyToggle ?
+              //         <div className='notification-button'>
+              //           <FaBell /> 
+              //           <span className="ripple-wrap">
+              //             <span className="ripple"></span>
+              //             <span className="ripple"></span>
+              //             <span className="ripple"></span>
+              //             </span>
+              //         </div>
+              //         : 
+              //         <div className='notification-cancel'>
+              //             <BsXLg /> 
+              //         </div>
+              //         }
 
-                      {/* notfication dropdown menu */}
-                      <div className={ notifyToggle ? "nofication-dropdown-menu active" : "nofication-dropdown-menu" }>
-                        <li>
-                          <div className="nofication-item">
-                            <h4>Hi Kash, Your domain will be expire soon.</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi a nemo architecto asperiores. Velit eveniet fugit corporis, culpa porro vero? 
-                                <div className='notify-action-button'>
-                                    <Link to="/dashboard">
-                                      <span>Renew Now</span> 
-                                    </Link> 
-                                    <MdChevronRight />
-                                </div>
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="nofication-item">
-                            <h4>Hi Kash, Your domain will be expire soon.</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi a nemo architecto asperiores. Velit eveniet fugit corporis, culpa porro vero? 
-                                <div className='notify-action-button'>
-                                    <Link to="/dashboard">
-                                      <span>Renew Now</span> 
-                                    </Link> 
-                                    <MdChevronRight />
-                                </div>
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="nofication-item">
-                            <h4>Hi Kash, Your domain will be expire soon.</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi a nemo architecto asperiores. Velit eveniet fugit corporis, culpa porro vero? 
-                                <div className='notify-action-button'>
-                                    <Link to="/dashboard">
-                                      <span>Renew Now</span> 
-                                    </Link> 
-                                    <MdChevronRight />
-                                </div>
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="nofication-item">
-                            <h4>Hi Kash, Your domain will be expire soon.</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi a nemo architecto asperiores. Velit eveniet fugit corporis, culpa porro vero? 
-                                <div className='notify-action-button'>
-                                    <Link to="/dashboard">
-                                      <span>Renew Now</span> 
-                                    </Link> 
-                                    <MdChevronRight />
-                                </div>
-                            </p>
-                          </div>
-                        </li>
+              //         {/* notfication dropdown menu */}
+              //         <div className={ notifyToggle ? "nofication-dropdown-menu active" : "nofication-dropdown-menu" }>
+              //           <li>
+              //             <div className="nofication-item">
+              //               <h4>Hi Kash, Your domain will be expire soon.</h4>
+              //               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi a nemo architecto asperiores. Velit eveniet fugit corporis, culpa porro vero? 
+              //                   <div className='notify-action-button'>
+              //                       <Link to="/dashboard">
+              //                         <span>Renew Now</span> 
+              //                       </Link> 
+              //                       <MdChevronRight />
+              //                   </div>
+              //               </p>
+              //             </div>
+              //           </li>
+              //           <li>
+              //             <div className="nofication-item">
+              //               <h4>Hi Kash, Your domain will be expire soon.</h4>
+              //               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi a nemo architecto asperiores. Velit eveniet fugit corporis, culpa porro vero? 
+              //                   <div className='notify-action-button'>
+              //                       <Link to="/dashboard">
+              //                         <span>Renew Now</span> 
+              //                       </Link> 
+              //                       <MdChevronRight />
+              //                   </div>
+              //               </p>
+              //             </div>
+              //           </li>
+              //           <li>
+              //             <div className="nofication-item">
+              //               <h4>Hi Kash, Your domain will be expire soon.</h4>
+              //               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi a nemo architecto asperiores. Velit eveniet fugit corporis, culpa porro vero? 
+              //                   <div className='notify-action-button'>
+              //                       <Link to="/dashboard">
+              //                         <span>Renew Now</span> 
+              //                       </Link> 
+              //                       <MdChevronRight />
+              //                   </div>
+              //               </p>
+              //             </div>
+              //           </li>
+              //           <li>
+              //             <div className="nofication-item">
+              //               <h4>Hi Kash, Your domain will be expire soon.</h4>
+              //               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi a nemo architecto asperiores. Velit eveniet fugit corporis, culpa porro vero? 
+              //                   <div className='notify-action-button'>
+              //                       <Link to="/dashboard">
+              //                         <span>Renew Now</span> 
+              //                       </Link> 
+              //                       <MdChevronRight />
+              //                   </div>
+              //               </p>
+              //             </div>
+              //           </li>
 
-                      </div>
-                    </li>
-                  </>
-               : ""
+              //         </div>
+              //       </li>
+              //     </>
+              //  : ""
               }
-              <li className='nav-item'>
+              {/* <li className='nav-item'>
                 { isUser ? <Link onClick={handleLogout} to='#' className='nav-link logout-link'>Logout</Link> : <Link to='/login' className='nav-link'>LOGIN</Link> }
-              </li>
+              </li> */}
               
             </ul>
           </nav>
