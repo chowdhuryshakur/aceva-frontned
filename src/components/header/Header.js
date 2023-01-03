@@ -48,9 +48,16 @@ function Header() {
               </Link>
           </div>
 
-          {/* mobile burger menu */}
-          <div onClick={() => setMenuToggle(!menuToggle)} className="mobile-header-burger-menu desktop-hide">
-            <img src={burgerMenu1} alt="burger" />
+          <div className="mobile-header-right">
+            {/* action button */}
+            <div className="mobile-action-btn desktop-hide">
+              <Link to="#">Get free trail</Link>
+            </div>
+
+            {/* mobile burger menu */}
+            <div onClick={() => setMenuToggle(!menuToggle)} className="mobile-header-burger-menu desktop-hide">
+              <img src={burgerMenu1} alt="burger" />
+            </div>
           </div>
 
           {/* navbar */}

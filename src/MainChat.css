@@ -3734,3 +3734,19 @@ section.dashboard-section {
     transform: rotateX(360deg);
  }
 }
+
+.mobile-header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-gap: 10px;
+}
+.mobile-action-btn {
+  background: var(--brand-color);
+  color: white;
+  border-radius: 25px;
+  padding: 8px 20px;
+}
+.mobile-action-btn a {
+  color: white;
+}
