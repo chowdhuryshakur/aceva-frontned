@@ -11,7 +11,23 @@ function Hero_Section() {
             <div className='hero-col-6 hero_col_6'>
               <div className='hero-content-wrap hero_content_wrap'>
                 <span className="sm-title">ACEVA</span>
-                <h1>Automate sales with a powerful chatbot builder</h1>
+                <h1>Automate sales with a powerful chatbot
+
+                  <div  className="home">
+                    <h3 id="resizing-h3" className="" >
+                      <span>
+                        <div className="stage">
+                          <div className="cubespinner">
+                            <div className="face face1">Innovative</div>
+                            <div className="face face2">Creative</div>
+                            <div className="face face3">Unbeatable</div>
+                            <div className="face face4">Exceptional</div>
+                          </div>
+                        </div>
+                      </span>
+                    </h3>
+                  </div>
+                </h1>
                 {/* <span className='highlight-text'>Chatbot Business</span> */}
                 
                 <p>Use one of our 35+ pre-designed templates or easily build your own chatbots.</p>
