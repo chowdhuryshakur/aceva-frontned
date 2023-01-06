@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../../assets/images/aceva.png'
-import burgerMenu from '../../assets/images/icons/menu-burger.svg'
-import burgerMenu1 from '../../assets/images/icons/menu.png'
-import burgerMenu2 from '../../assets/images/icons/menu-line.png'
-import {Link, useNavigate} from 'react-router-dom'
 import { BsXLg } from 'react-icons/bs'
-import {FaBell} from 'react-icons/fa'
-import {MdChevronRight} from 'react-icons/md'
+import { Link, useNavigate } from 'react-router-dom'
+import logo from '../../assets/images/aceva.png'
+import burgerMenu1 from '../../assets/images/icons/menu.png'
 
 function Header() {
 
@@ -68,6 +64,7 @@ function Header() {
               <li className='nav-item'><Link to='/aceva' className='nav-link'>ACEVA</Link></li>
               <li className='nav-item'><Link to='/pricing' className='nav-link'>Pricing</Link></li>
               <li className='nav-item'><Link to='/blog' className='nav-link'>Blog</Link></li>
+              <li className='nav-item demon-btn'><Link to='/demo' className='nav-link'>Demo</Link></li>
 
               {
               //   isUser ?

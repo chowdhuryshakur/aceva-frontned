@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroGif from '../../assets/video/hero-gif.gif'
-import ColumnBg from '../../assets/images/bg/Home-Commerce.webp'
+import ColumnBg from '../../assets/images/bg/Home-Commerce.png'
 
 function Column_Section() {
   return (

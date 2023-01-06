@@ -6,6 +6,7 @@ import BlogDetails from './screens/BlogDetails';
 import BlogScreen from './screens/BlogScreen';
 import CategoryScreen from './screens/CategoryScreen';
 import DashboardScreen from './screens/DashboardScreen';
+import DemoScreen from './screens/DemoScreen';
 import HomeScreen from './screens/HomeScreen';
 import LoginScreen from './screens/LoginScreen';
 import PageDetailsScreen from './screens/PageDetailsScreen';
@@ -33,6 +34,7 @@ function App() {
         <Route path="/blog/:id" element={<BlogDetails />} />
         <Route path="/page/:id" element={<PageDetailsScreen />} />
         <Route path="/aceva" element={<AcevaScreen />} />
+        <Route path="/demo" element={<DemoScreen />} />
       </Routes>
     </BrowserRouter>
   );

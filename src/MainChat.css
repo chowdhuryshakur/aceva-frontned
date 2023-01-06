@@ -140,7 +140,7 @@ h6 {
   background: var(--secondary-color);
   color: white;
   border-radius: 20px;
-  font-family: poppins;
+  font-family: bot;
 }
 /* main style */
 
@@ -3749,4 +3749,128 @@ section.dashboard-section {
 }
 .mobile-action-btn a {
   color: white;
+}
+.demon-btn {
+  background: linear-gradient(115deg, rgb(42, 39, 218), rgb(0, 204, 255));
+  color: white;
+  padding: 9px 25px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px darkgray;
+}
+.demon-btn a {
+  color: white !important;
+}
+
+/* demo page */
+.demo-section {
+  margin: 50px 0px;
+  margin-top: 20px;
+}
+.demo-wrapper {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-gap: 50px;
+}
+.demo-content {
+  width: 100%;
+}
+.demo-content h1 {
+  font-size: 35px;
+  color: #009688;
+}
+.demo-content h2 {
+  color: #666666;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.demo-list-wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 35px;
+}
+.demo-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  grid-gap: 15px;
+}
+.demo-list-thumb svg{
+  font-size: 26px;
+  color: #009688;
+}
+.demo-list-content {
+
+}
+.demo-list-content h3 {
+
+}
+.demo-list-content p {
+  margin-top: 5px;
+  line-height: 21px;
+  font-size: 15px;
+}
+.demo-brand_wrap {
+  display: flex;
+  justify-content: flex-start;
+  grid-gap: 35px;
+}
+.demo-brand-item {
+  width: 100%;
+  height: auto;
+}
+.demo-brand_wrap .demo-brand-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.form-wrapper {
+  width: 100%;
+}
+.form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 14px;
+}
+.form-group {
+
+}
+.form-group input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  font-size: 19px;
+  font-family: 'bot';
+  transition: all 0.3s ease-in-out;
+}
+.form-group input:focus {
+  border: 1px solid var(--brand-blue);
+  outline: unset;
+}
+.form-group p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 20px;
+}
+.demo-brand-wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.demo-brand-wrapper h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.demo-submit {
+  background: var(--brand-color);
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 21px;
+  font-weight: 400;
 }
