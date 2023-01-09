@@ -1,32 +1,32 @@
 import React from 'react'
 import HeroGif from '../../assets/video/hero-gif.gif'
-import ColumnBg from '../../assets/images/bg/Home-Commerce.png'
+import ColumnBg from '../../assets/images/bg/illustration-1.png'
 
-function Column_Section() {
+function Multi_Channel_Integration_Section() {
   return (
     <>
       <section className='column_section'>
         <div className='container'>
           <div className='column_row'>
 
+            {/* thumb */}
+            <div className='column_thumb col_6'>
+              <img src={ColumnBg} alt="robot" /> 
+            </div>
+
             {/* content */}
             <div className='col_6'>
               <div className='column_content_wrap'>
-                <h2>Intuitive conversational with Artificial Intelligence</h2>
+                <h2>Multi-channel integration</h2>
                 
-                <p>Use AI Conversational to answer in-the-moment queries and generate leads instantly while increasing ROAS. </p>
-                <p>Set up one-time or create recurring Bulk Campaigns to expand reach and amplify customer engagement.</p>
+                <p>Easy integration with any system and social media platforms. </p>
+                <p>Gives users quick, easy access to your application with only a few clicks.</p>
                 {/* <div className='column_buttons'>
                   <a href='/admin'>
                     <button className='btn column_content_btn'>See it in action</button>
                   </a>
                   </div> */}
               </div>
-            </div>
-
-            {/* thumb */}
-            <div className='column_thumb col_6'>
-              <img src={ColumnBg} alt="robot" /> 
             </div>
           </div>
         </div>
@@ -35,4 +35,4 @@ function Column_Section() {
   )
 }
 
-export default Column_Section
+export default Multi_Channel_Integration_Section

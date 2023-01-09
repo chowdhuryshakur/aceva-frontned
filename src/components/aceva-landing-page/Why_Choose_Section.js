@@ -21,8 +21,8 @@ function Why_Choose_Section() {
               <img src={analytics} alt="" />
             </div>
             <div className="int_content">
-              <h3>Plug-and-play</h3>
-              <p>From product discovery to payment, our WhatsApp solution makes it easy for your customers to connect with your brand.</p>
+              <h3>Process Automation</h3>
+              <p>Automate business processes with a click of a button. With RPA technology, you can customize automation process easily with chatbot.</p>
             </div>
           </div>
 
@@ -33,7 +33,7 @@ function Why_Choose_Section() {
             </div>
             <div className="int_content">
               <h3>Analytics</h3>
-              <p>From product discovery to payment, our WhatsApp solution makes it easy for your customers to connect with your brand.</p>
+              <p>Real-time notification with business insights. ACEVA unified all the information in a single dashboard.</p>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ function Why_Choose_Section() {
             </div>
             <div className="int_content">
               <h3>Best class AI</h3>
-              <p>From product discovery to payment, our WhatsApp solution makes it easy for your customers to connect with your brand.</p>
+              <p>Natural Language Processing (NLP) and Artificial Intelligent (AI) combine together to give you the best and streamline experience.</p>
             </div>
           </div>
 

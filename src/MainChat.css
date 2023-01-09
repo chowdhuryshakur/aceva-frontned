@@ -86,7 +86,7 @@ h6 {
 }
 ::selection {
   color: white;
-  background: var(--orangeColor);
+  background: var(--brand-blue);
 }
 
 /* Variables */
@@ -1709,7 +1709,7 @@ section.featured-section {
   font-weight: 700;
 }
 .section-title .sub-title.purple-color {
-  color: var(--purpleColor);
+  color: var(--brand-blue);
 }
 .section-title .sub-title {
   display: block;
@@ -1731,7 +1731,7 @@ section.featured-section {
   color: var(--blackColor);
 }
 .single-features-item p {
-  line-height: 28px;
+  line-height: 27px;
   font-size: 16px;
   font-weight: 400;
   color: var(--paragraphColor);
@@ -1806,7 +1806,7 @@ ul.overview-list {
 }
 .overview-icon svg {
   font-size: 20px;
-  color: var(--purpleColor);
+  color: var(--brand-blue);
 }
 .goal-thumb {
   width: 100%;
@@ -1821,7 +1821,7 @@ ul.overview-list {
 button.overview-button {
   padding: 10px 20px;
   border-radius: 3px;
-  color: var(--purpleColor);
+  color: var(--brand-blue);
   background: var(--whiteColor);
   font-family: poppins;
   font-weight: 400;
@@ -1877,7 +1877,7 @@ section.what-we-do-section {
 }
 .what-we-do-item a {
   font-weight: 600;
-  color: orangered;
+  color: var(--brand-blue);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -2592,7 +2592,7 @@ section.dashboard-section {
   transition: all 0.3s ease-in-out;
 }
 .pricing-item:hover {
-  border: 2px solid var(--purpleColor);
+  border: 2px solid var(--brand-blue);
 }
 .pricing-item h2 {
 }
@@ -2612,7 +2612,7 @@ section.dashboard-section {
 }
 .plan-name {
   font-size: 24px;
-  color: #e91e63;
+  color: var(--blackColor);
   padding-top: 5px;
   font-weight: 600;
 }
@@ -2626,7 +2626,7 @@ section.dashboard-section {
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: 600;
-  color: var(--purpleColor);
+  color: var(--brand-blue);
   font-family: 'Montserrat';
   font-weight: bold;
 }
@@ -2669,7 +2669,7 @@ section.dashboard-section {
 .pricing-buy-button {
   padding: 8px 20px;
   color: white;
-  background: #009688;
+  background: var(--brand-blue);
   border-radius: 50px;
   width: 60%;
   position: absolute;
@@ -3063,7 +3063,7 @@ section.dashboard-section {
   transform: translateY(-3px);
 }
 .special-offer-for-country {
-  border: 2px dotted #c211a1;
+  border: 2px dotted var(--brand-blue);
   padding: 10px;
   border-radius: 5px;
   background: white;
@@ -3076,7 +3076,7 @@ section.dashboard-section {
 }
 .country-name {
   font-weight: 600;
-  color: #c211a1;
+  color: var(--brand-blue);
 }
 .regular-price {
   color: gray;
@@ -3134,13 +3134,13 @@ section.dashboard-section {
 }
 
 .swiper-pagination-bullet {
-  background: var(--purpleColor) !important;
+  background: var(--brand-blue) !important;
   width: 15px !important;
   height: 15px !important;
 }
 
 .testi-item:hover {
-  border-bottom: 3px solid var(--purpleColor);
+  border-bottom: 3px solid var(--brand-blue);
 }
 .testi-profile {
   display: flex;
@@ -3169,6 +3169,7 @@ section.dashboard-section {
 .testi-excerpt p {
   font-size: 14px;
   line-height: 20px;
+  color: #9e9e9e;
 }
 .review-wrap {
   display: flex;
@@ -3178,7 +3179,7 @@ section.dashboard-section {
   margin-top: 20px;
 }
 .review-wrap li svg {
-  color: var(--purpleColor);
+  color: var(--orangeColor);
   font-size: 20px;
 }
 .quote-icon {
@@ -3191,8 +3192,8 @@ section.dashboard-section {
 /* Newsletter sectoin */
 .newsletter-section {
   padding: 50px 0px;
-  background: var(--purpleColor);
-  background-image: linear-gradient(to right, var(--purpleColor), #f44336);
+  background: var(--brand-blue);
+  /* background-image: linear-gradient(to right, var(--brand-blue), #f44336); */
   position: relative;
   overflow-x: clip;
 }
@@ -3234,18 +3235,26 @@ section.dashboard-section {
   height: 45px;
   border-radius: 30px;
   padding: 0px 36px;
-  background: var(--purpleColor);
+  background: var(--brand-blue);
   color: white;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
   right: 8px;
 }
+.newsletter-btn-center {
+  position: unset;
+  border: 2px solid;
+  box-shadow: 0px 0px 5px 0px gray;
+  height: 56px;
+  width: 190px;
+  font-size: 18px;
+}
 .abs-leaf {
-  width: 247px;
+  width: 133px;
   position: absolute;
-  top: -78px;
-  right: -27px;
+  top: -61px;
+  right: -18px;
   transform: rotate(-35deg);
 }
 .tringle-shape {
@@ -3442,7 +3451,7 @@ section.dashboard-section {
 }
 .column_thumb {
   width: 100%;
-  height: auto;
+  height: 300px;
   max-width: 50%;
   margin: auto;
 }
@@ -3579,6 +3588,9 @@ section.dashboard-section {
 }
 
 /* rotating text */
+.home {
+  
+}
 .home h3 {
   font-size: 52px;
   color: #009393;
@@ -3751,7 +3763,7 @@ section.dashboard-section {
   color: white;
 }
 .demon-btn {
-  background: linear-gradient(115deg, rgb(42, 39, 218), rgb(0, 204, 255));
+  background: linear-gradient(26deg, rgb(42, 39, 218), rgb(0, 204, 255));
   color: white;
   padding: 9px 25px;
   border-radius: 20px;
@@ -3873,4 +3885,65 @@ section.dashboard-section {
   border-radius: 30px;
   font-size: 21px;
   font-weight: 400;
+}
+
+/* integration and brand section */
+.int-brand-section {
+  background: #d9d9d942;
+  padding: 50px 0px;
+}
+.int-brand-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 30px;
+}
+.int-brand-two-col-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+}
+.int-brand-col-item {
+  width: 161px;
+  height: 65px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 0px lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.int-brand-col-item img{
+  width: 40px;
+  height: auto;
+}
+.int-brand-all-wrapper {
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+}
+.int-brand-all-item {
+  width: 130px;
+  height: 75px;
+  background: white;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 6px 0px lightgray;
+}
+.int-brand-all-item img{
+  width: 80px;
+  height: auto;
+}
+.int-brand-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.int-brand-title h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.int-brand-title p {
+
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroGif from '../../assets/video/hero-gif.gif'
-import ColumnBg from '../../assets/images/bg/Home-Customer-Care-1.png'
+import ColumnBg from '../../assets/images/bg/realtime-notification.webp'
 
 function Column_Section3() {
   return (
@@ -16,11 +16,10 @@ function Column_Section3() {
             {/* content */}
             <div className='col_6'>
               <div className='column_content_wrap'>
-                <h2>Customer Support That's Casual & Conversational</h2>
+                <h2>Real-time notification</h2>
                 
                 <p>Offer 24/7 AI-driven customer care for instant, seamless query resolution.</p>
-                <p>Provide timely updates, usage guides, tips & more to inform, educate and drive brand loyalty with buyers.</p>
-                <p>Leverage Haptik’s Natural Language models and pre-built Smart Skills to handle order management, account management & subscription support.</p>
+                <p>Notify you real time via mobile at anytime wherever you are. Set your conditions and get a latest update about your business with whatsapp or telegram.</p>
                 <div className='column_buttons'>
                   <a href='/'>
                     <button className='btn column_content_btn'>Learn more</button>

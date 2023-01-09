@@ -12,6 +12,7 @@ import LoginScreen from './screens/LoginScreen';
 import PageDetailsScreen from './screens/PageDetailsScreen';
 import PricingScreen from './screens/PricingScreen';
 import ProductScreen from './screens/ProductScreen';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/login" element={<LoginScreen />} />

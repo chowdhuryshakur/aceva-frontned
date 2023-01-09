@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeMarketing from '../../assets/images/bg/Home-Marketing.png'
+import HomeMarketing from '../../assets/images/bg/desktop-screen-dashboard.png'
 
 function Column_Section2() {
   return (
@@ -10,16 +10,15 @@ function Column_Section2() {
             {/* content */}
             <div className='col_6'>
               <div className='column_content_wrap'>
-                <h2>Intuitive, Insightful, Conversational Marketing</h2>
+                <h2>Business Insights with analytics dashboard</h2>
                 
-                <p>Use Proactive Messaging to engage buyers with personalized discounts, back-in-stock alerts, pending cart reminders & more.</p>
-                <p>Use Conversational Ads to answer in-the-moment queries and generate leads instantly while increasing ROAS.</p>
-                <p>Set up one-time or create recurring Bulk Campaigns to expand reach and amplify customer engagement.</p>
-                <div className='column_buttons'>
+                <p>Analytics dashboard with all the information that matters. Connect to your database and visualize your insight with our dashboard tools.</p>
+                
+                {/* <div className='column_buttons'>
                   <a href='/'>
                     <button className='btn column_content_btn'>Get started</button>
                   </a>
-                  </div>
+                  </div> */}
               </div>
             </div>
 

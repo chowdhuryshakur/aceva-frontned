@@ -10,18 +10,18 @@ function Hero_Section() {
           <div className='hero-row hero_row'>
             <div className='hero-col-6 hero_col_6'>
               <div className='hero-content-wrap hero_content_wrap'>
-                <span className="sm-title">ACEVA</span>
-                <h1>Automate sales with a powerful chatbot
+                {/* <span className="sm-title">ACEVA</span> */}
+                <h1>AI Virtual Assistant for your
 
                   <div  className="home">
                     <h3 id="resizing-h3" className="" >
                       <span>
                         <div className="stage">
                           <div className="cubespinner">
-                            <div className="face face1">Innovative</div>
-                            <div className="face face2">Creative</div>
-                            <div className="face face3">Unbeatable</div>
-                            <div className="face face4">Exceptional</div>
+                            <div className="face face1">Business</div>
+                            <div className="face face2">Process</div>
+                            <div className="face face3">Service</div>
+                            <div className="face face4">HR</div>
                           </div>
                         </div>
                       </span>
@@ -30,7 +30,7 @@ function Hero_Section() {
                 </h1>
                 {/* <span className='highlight-text'>Chatbot Business</span> */}
                 
-                <p>Use one of our 35+ pre-designed templates or easily build your own chatbots.</p>
+                <p>ACEVA is a smart bot that handles your communications, automate you business processes while notify you real-time.</p>
                 <div className='hero-buttons hero_buttons'>
                   <a href='/admin'>
                     <button className='btn hero-service-button'>Get a free trail</button>
