@@ -734,6 +734,9 @@
 section.hero-section{
   margin-top: 25px;
 }
+.int-brand-all-wrapper{
+  flex-flow: wrap;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

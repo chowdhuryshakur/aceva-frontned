@@ -84,7 +84,7 @@ function TestimonialSection() {
                       <p>Founder & CEO</p>
                     </div>
                   </div>
-                  <p> <RiDoubleQuotesL className='quote-icon' /> Empowering your end users to make accurate data driven decisions requires visible and valid data, powerful predictive metrics and ensured end user engagement. <RiDoubleQuotesR className='quote-icon' />
+                  <p> <RiDoubleQuotesL className='quote-icon' /> I love how easy ACEVA is to set up. I was up and running in less than 10 minutes AND that included chatting with their amazing tech support. We are starting with free, see how we do then upgrade! <RiDoubleQuotesR className='quote-icon' />
                   </p>
 
                   <ul className='review-wrap'>
@@ -108,7 +108,7 @@ function TestimonialSection() {
                       <p>Xboard - Founder</p>
                     </div>
                   </div>
-                  <p> <RiDoubleQuotesL className='quote-icon' /> Empowering your end users to make accurate data driven decisions requires visible and valid data, powerful predictive metrics and ensured end user engagement. <RiDoubleQuotesR className='quote-icon' />
+                  <p> <RiDoubleQuotesL className='quote-icon' /> The design customization is excellent even in the free plan. The chatbot works like a charm, and we couldn't be happier with ACEVA's support team. Also, the pricing is fair. <RiDoubleQuotesR className='quote-icon' />
                   </p>
 
                   <ul className='review-wrap'>
@@ -132,7 +132,7 @@ function TestimonialSection() {
                       <p>Managing director - Daraz</p>
                     </div>
                   </div>
-                  <p> <RiDoubleQuotesL className='quote-icon' /> Empowering your end users to make accurate data driven decisions requires visible and valid data, powerful predictive metrics and ensured end user engagement. <RiDoubleQuotesR className='quote-icon' />
+                  <p> <RiDoubleQuotesL className='quote-icon' /> The automation - hands down. I use Tidio all the time and suggest it to my clients for its ease of use and excellent support. I've not used it yet with shopping carts but I can really imagine it being awesome - will definately test it out.<RiDoubleQuotesR className='quote-icon' />
                   </p>
 
                   <ul className='review-wrap'>
@@ -156,7 +156,7 @@ function TestimonialSection() {
                       <p>Founder & CEO</p>
                     </div>
                   </div>
-                  <p> <RiDoubleQuotesL className='quote-icon' /> Empowering your end users to make accurate data driven decisions requires visible and valid data, powerful predictive metrics and ensured end user engagement. <RiDoubleQuotesR className='quote-icon' />
+                  <p> <RiDoubleQuotesL className='quote-icon' /> The fact that I can have all the features of other chatbot tools + online live chat in multiple language + email marketing service with ready built tempaltes and above all, a perfect support team that are always online for you to help. <RiDoubleQuotesR className='quote-icon' />
                   </p>
 
                   <ul className='review-wrap'>
@@ -180,7 +180,7 @@ function TestimonialSection() {
                       <p>Xboard - Founder</p>
                     </div>
                   </div>
-                  <p> <RiDoubleQuotesL className='quote-icon' /> Empowering your end users to make accurate data driven decisions requires visible and valid data, powerful predictive metrics and ensured end user engagement. <RiDoubleQuotesR className='quote-icon' />
+                  <p> <RiDoubleQuotesL className='quote-icon' /> The design customization is excellent even in the free plan. The chatbot works like a charm, and we couldn't be happier with ACEVA's support team. Also, the pricing is fair. <RiDoubleQuotesR className='quote-icon' />
                   </p>
 
                   <ul className='review-wrap'>
@@ -204,7 +204,7 @@ function TestimonialSection() {
                       <p>Managing director - Daraz</p>
                     </div>
                   </div>
-                  <p> <RiDoubleQuotesL className='quote-icon' /> Empowering your end users to make accurate data driven decisions requires visible and valid data, powerful predictive metrics and ensured end user engagement. <RiDoubleQuotesR className='quote-icon' />
+                  <p> <RiDoubleQuotesL className='quote-icon' /> The automation - hands down. I use ACEVA all the time and suggest it to my clients for its ease of use and excellent support. I've not used it yet with shopping carts but I can really imagine it being awesome - will definately test it out. <RiDoubleQuotesR className='quote-icon' />
                   </p>
 
                   <ul className='review-wrap'>
@@ -224,13 +224,6 @@ function TestimonialSection() {
 
               {/* single item */}
               
-
-              {/* single item */}
-              
-
-              {/* single item */}
-              
-
             </div>
           </div>
         </div>

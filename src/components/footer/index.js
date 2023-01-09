@@ -1,10 +1,9 @@
 import React from 'react'
-import { BsFacebook, BsLinkedin, BsTwitter, BsYoutube } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
 // images
-import bg from '../../assets/images/bg/bg.png'
 import logo from '../../assets/images/aceva.png'
+import bg from '../../assets/images/bg/bg.png'
 import SocialMedia from '../SocialMedia'
 
 function index() {
@@ -104,11 +103,11 @@ function index() {
               <ul>
                 <li>
                   <span className='footer-address-title'>Phone Number: </span>
-                  <span className="footer-address-details"> +6011 1123 4515</span>
+                  <span className="footer-address-details"> <a href="tel:+6011 1123 4515">+6011 1123 4515</a> </span>
                 </li>
                 <li>
                   <span className='footer-address-title'>Email Address: </span>
-                  <span className="footer-address-details"><Link to="mailto:info@wipdata.com"> info@wipdata.com</Link></span>
+                  <span className="footer-address-details"><a onClick={() => window.location = 'mailto:info@wipdata.com'}> info@wipdata.com</a></span>
                 </li>
                 <li>
                   <span className='footer-address-title'>Working Hours: </span>

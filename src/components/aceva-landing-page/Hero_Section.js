@@ -3,6 +3,15 @@ import HeroVideo from '../../assets/video/hero.mp4'
 import HeroGif from '../../assets/video/hero-gif.gif'
 
 function Hero_Section() {
+
+  function handleScroll() {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0, 
+      behavior: 'smooth',
+    });
+  }
+
   return (
     <>
       <section className='hero-section'>
@@ -32,12 +41,12 @@ function Hero_Section() {
                 
                 <p>ACEVA is a smart bot that handles your communications, automate you business processes while notify you real-time.</p>
                 <div className='hero-buttons hero_buttons'>
-                  <a href='/admin'>
-                    <button className='btn hero-service-button'>Get a free trail</button>
+                  <a href='/demo'>
+                    <button className='btn hero-service-button'>Get a Demo</button>
                   </a>
-                  <a href='#'>
-                    <button className='btn hero-contact-button'>Contact Us</button>
-                  </a>
+                  
+                    <button onClick={handleScroll} className='btn hero-contact-button'>Contact Us</button>
+                  
                 </div>
               </div>
             </div>

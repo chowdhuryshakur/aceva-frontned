@@ -48,16 +48,16 @@ function PricingScreen() {
               <div className="single-item-wrap">
 
                 {/* special offer for country */}
-                <div className="special-offer-for-country">
+                {/* <div className="special-offer-for-country">
                   <p>We noticed that you're from <span className='country-name'>{country}</span>. I want to make this course affordable for everyone around the world. 
                   A special <span className="country-off">60% off</span> discount code will automatically be applied for you during checkout. Enjoy! 🙂</p>
-                </div>
+                </div> */}
 
                 <div className="single-features-item pricing-item comment-style">
                                  
-                <div className="icon">
+                {/* <div className="icon">
                   <img src={chatbot} alt="comment" />
-                </div>
+                </div> */}
                 <div className="text-center border-bottom">
                   <div className="plan-name">Standard</div>
                   <div className="discriptive">Perfect for Small Businesses</div>
@@ -85,21 +85,21 @@ function PricingScreen() {
                     <li className='not-eligible-icon'> <BsCheck2 /> Proactive Chat</li>
                   </ul>
                 </div>
-                <button className='pricing-buy-button'>Buy Now</button>
+                <button className='pricing-buy-button'>Enquire Now</button>
               </div>
               </div>
 
               {/* single item */}
               <div className="single-item-wrap">
                 {/* special offer for country */}
-                <div className="special-offer-for-country">
+                {/* <div className="special-offer-for-country">
                   <p>We noticed that you're from <span className='country-name'>{country}</span>. I want to make this course affordable for everyone around the world. 
                   A special <span className="country-off">70% off</span> discount code will automatically be applied for you during checkout. Enjoy! 🙂</p>
-                </div>
+                </div> */}
                 <div className="single-features-item pricing-item ai-style">
-                <div className="icon">
+                  {/* <div className="icon">
                     <img src={ai} alt="comment" />
-                  </div>
+                  </div> */}
                   <div className="text-center border-bottom">
                     <div className="plan-name">Advanced</div>
                     <div className="discriptive">Ideal for Growing Businesses</div>
@@ -128,21 +128,21 @@ function PricingScreen() {
                       <li> <BsCheck2 /> See all features</li>
                     </ul>
                   </div>
-                  <button className='pricing-buy-button'>Buy Now</button>
+                  <button className='pricing-buy-button'>Enquire Now</button>
                 </div>
               </div>
 
               {/* single item */}
               <div className="single-item-wrap">
                   {/* special offer for country */}
-                  <div className="special-offer-for-country">
+                  {/* <div className="special-offer-for-country">
                     <p>We noticed that you're from <span className='country-name'>{country}</span>. I want to make this course affordable for everyone around the world. 
                     A special <span className="country-off">80% off</span> discount code will automatically be applied for you during checkout. Enjoy! 🙂</p>
-                  </div>
+                  </div> */}
                 <div className="single-features-item pricing-item analysis-style">
-                  <div className="icon">
+                    {/* <div className="icon">
                       <img src={analysis} alt="comment" />
-                    </div>
+                    </div> */}
                     <div className="text-center border-bottom">
                       <div className="plan-name">Enterprise</div>
                       <div className="discriptive">Best for Enterprise Teams</div>
@@ -171,7 +171,7 @@ function PricingScreen() {
                         <li> <BsCheck2 /> See all features</li>
                       </ul>
                     </div>
-                    <button className='pricing-buy-button'>Buy Now</button>
+                    <button className='pricing-buy-button'>Enquire Now</button>
                 </div>
               </div>
 

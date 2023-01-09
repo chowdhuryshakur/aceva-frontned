@@ -47,7 +47,7 @@ function Header() {
           <div className="mobile-header-right">
             {/* action button */}
             <div className="mobile-action-btn desktop-hide">
-              <Link to="#">Get free trail</Link>
+              <Link to="/demo">Get free trail</Link>
             </div>
 
             {/* mobile burger menu */}

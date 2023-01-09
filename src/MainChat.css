@@ -59,6 +59,10 @@ button {
   cursor: pointer;
   outline: none;
   font-family: poppins;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background: var(--blackColor) !important;
 }
 section {
   width: 100%;
@@ -121,7 +125,8 @@ h6 {
   --fontSize: 17px;
 
   /* brand colors */
-  --brand-blue: #004aad;
+  /* --brand-blue: #004aad; */
+  --brand-blue: #0566ff;
   --brand-green: #48ca7d;
 }
 
@@ -789,6 +794,7 @@ header {
   grid-gap: 10px;
   padding: 10px 0px;
   transition: all 0.3s ease-in-out;
+  height: 80px;
 }
 .header-logo {
   margin: unset !important;
@@ -1729,12 +1735,16 @@ section.featured-section {
   font-weight: 600;
   margin: 20px 0px;
   color: var(--blackColor);
+  text-align: center;
 }
 .single-features-item p {
   line-height: 27px;
   font-size: 16px;
   font-weight: 400;
   color: var(--paragraphColor);
+  text-align: justify;
+  text-justify: inter-word;
+
 }
 .single-features-item.style-two .icon {
   color: #c211a1;
@@ -3131,8 +3141,12 @@ section.dashboard-section {
   cursor: pointer;
   user-select: none;
   margin-bottom: 65px;
+  min-height: 370px;
 }
-
+.testi-item p {
+  font-size: 15px;
+  line-height: 23px;
+}
 .swiper-pagination-bullet {
   background: var(--brand-blue) !important;
   width: 15px !important;
@@ -3146,7 +3160,7 @@ section.dashboard-section {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  grid-gap: 20px;
+  grid-gap: 10px;
   margin-bottom: 15px;
 }
 .testi-thumb {
@@ -3165,6 +3179,7 @@ section.dashboard-section {
 }
 .testi-excerpt h3 {
   margin: unset;
+  text-align: left;
 }
 .testi-excerpt p {
   font-size: 14px;
@@ -3349,6 +3364,7 @@ section.dashboard-section {
   transition: all 0.3s ease-in-out;
 }
 .single-item-wrap {
+  width: 100%;
 }
 
 /* page */
@@ -3403,8 +3419,8 @@ section.dashboard-section {
 .hero_content_wrap h1 {
   font-family: 'bot';
   font-weight: 600;
-  font-size: 52px;
-  line-height: 64px;
+  font-size: 68px;
+  line-height: 68px;
   letter-spacing: -0.03em;
 }
 .hero_content_wrap p {
@@ -3437,6 +3453,10 @@ section.dashboard-section {
 }
 .hero_buttons .hero-contact-button:hover {
   transform: translateY(-3px);
+  color: white !important;
+}
+.hero_buttons .hero-contact-button:hover .hero-contact-button a{
+  color: white !important;
 }
 
 /* column section */
@@ -3623,13 +3643,13 @@ section.dashboard-section {
   width: 400px;
   height: 80px;
   text-align: left;
-  color: #109393;
-  font-size: 52px;
+  color: var(--brand-blue);
+  font-size: 76px;
   line-height: 64px;
   font-weight: 700;
 }
 .cubespinner .face1 {
-  color: #f1c40f;
+  color: var(--brand-blue);
   -webkit-transform: translateZ(40px);
   -moz-transform: translateZ(40px);
   -ms-transform: translateZ(40px);
@@ -3645,7 +3665,7 @@ section.dashboard-section {
   -webkit-backface-visibility: hidden;
 }
 .cubespinner .face3 {
-  color: #f85555;
+  color: var(--brand-blue);
   -webkit-transform: rotateX(180deg) translateZ(40px);
   -moz-transform: rotateX(180deg) translateZ(40px);
   -ms-transform: rotateX(180deg) translateZ(40px);
@@ -3754,7 +3774,7 @@ section.dashboard-section {
   grid-gap: 10px;
 }
 .mobile-action-btn {
-  background: var(--brand-color);
+  background: var(--secondary-bg);
   color: white;
   border-radius: 25px;
   padding: 8px 20px;
@@ -3765,9 +3785,13 @@ section.dashboard-section {
 .demon-btn {
   background: linear-gradient(26deg, rgb(42, 39, 218), rgb(0, 204, 255));
   color: white;
-  padding: 9px 25px;
-  border-radius: 20px;
+  padding: 11px 35px;
+  border-radius: 30px;
   box-shadow: 0px 0px 5px 0px darkgray;
+  transition: all 0.3s ease-in-out;
+}
+.demon-btn:hover {
+  background: linear-gradient(26deg, rgb(2, 1, 27), rgb(0, 12, 15));
 }
 .demon-btn a {
   color: white !important;
@@ -3788,7 +3812,7 @@ section.dashboard-section {
 }
 .demo-content h1 {
   font-size: 35px;
-  color: #009688;
+  color: var(--blackColor);
 }
 .demo-content h2 {
   color: #666666;
@@ -3880,7 +3904,7 @@ section.dashboard-section {
   font-weight: 500;
 }
 .demo-submit {
-  background: var(--brand-color);
+  background: var(--brand-blue);
   padding: 12px;
   border-radius: 30px;
   font-size: 21px;
@@ -3946,4 +3970,7 @@ section.dashboard-section {
 }
 .int-brand-title p {
 
+}
+.image-float-right {
+  flex-direction: row-reverse;
 }

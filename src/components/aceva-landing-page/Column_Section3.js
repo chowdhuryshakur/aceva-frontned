@@ -8,11 +8,6 @@ function Column_Section3() {
         <div className='container'>
           <div className='column_row'>
 
-            {/* thumb */}
-            <div className='column_thumb col_6'>
-              <img src={ColumnBg} alt="robot" /> 
-            </div>
-
             {/* content */}
             <div className='col_6'>
               <div className='column_content_wrap'>
@@ -27,6 +22,12 @@ function Column_Section3() {
                   </div>
               </div>
             </div>
+
+            {/* thumb */}
+            <div className='column_thumb col_6'>
+              <img src={ColumnBg} alt="robot" /> 
+            </div>
+            
           </div>
         </div>
       </section>

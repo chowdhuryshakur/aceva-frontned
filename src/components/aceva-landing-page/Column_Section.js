@@ -7,7 +7,12 @@ function Column_Section() {
     <>
       <section className='column_section'>
         <div className='container'>
-          <div className='column_row'>
+          <div className='column_row image-float-right'>
+
+            {/* thumb */}
+            <div className='column_thumb col_6'>
+              <img src={ColumnBg} alt="robot" /> 
+            </div>
 
             {/* content */}
             <div className='col_6'>
@@ -24,10 +29,6 @@ function Column_Section() {
               </div>
             </div>
 
-            {/* thumb */}
-            <div className='column_thumb col_6'>
-              <img src={ColumnBg} alt="robot" /> 
-            </div>
           </div>
         </div>
       </section>
