@@ -902,7 +902,7 @@ button.hero-service-button {
   height: 50px;
   width: max-content;
   padding: 0px 20px;
-  border-radius: 3px;
+  border-radius: 30px;
   font-family: montserrat;
   font-size: 18px;
   background: var(--orangeColor);
@@ -914,7 +914,7 @@ button.hero-contact-button {
   height: 50px;
   width: max-content;
   padding: 0px 20px;
-  border-radius: 3px;
+  border-radius: 30px;
   font-family: montserrat;
   font-size: 18px;
   background: transparent;
@@ -1687,6 +1687,7 @@ svg.close-user-register-form {
 section.featured-section {
   padding: 80px 0px;
   background: #2196f303;
+  padding-bottom: 40px;
 }
 .featured-container {
 }
@@ -1744,7 +1745,6 @@ section.featured-section {
   color: var(--paragraphColor);
   text-align: justify;
   text-justify: inter-word;
-
 }
 .single-features-item.style-two .icon {
   color: #c211a1;
@@ -2596,10 +2596,11 @@ section.dashboard-section {
 .pricing-item {
   text-align: center;
   position: relative;
-  box-shadow: 0px 1px 2px 0px #dbdbdb !important;
+  box-shadow: 0px 1px 3px 1px #eaeaea !important;
   border-radius: 5px;
   border: 2px solid transparent;
   transition: all 0.3s ease-in-out;
+  min-height: 610px;
 }
 .pricing-item:hover {
   border: 2px solid var(--brand-blue);
@@ -2629,6 +2630,7 @@ section.dashboard-section {
 .discriptive {
   font-size: 16px;
   color: var(--paragraphColor);
+  margin-top: 40px;
 }
 .price {
   font-size: 45px;
@@ -3131,7 +3133,7 @@ section.dashboard-section {
 
 /* testimonial section */
 .testi-section {
-  background: #ff004d05 !important;
+  /* background: #ff004d05 !important; */
 }
 .testi-item {
   padding: 30px;
@@ -3303,6 +3305,7 @@ section.dashboard-section {
 
 /* FAQ section */
 .faq-section {
+  padding-top: 20px;
 }
 .faq-container {
   display: grid;
@@ -3334,23 +3337,23 @@ section.dashboard-section {
   user-select: none;
 }
 .faq-item.active .faq-title {
-  background: #673ab7;
+  background: var(--brand-blue);
 }
 .faq-item.active .faq-title h2 {
   color: white;
 }
 .faq-title:hover {
-  background: #673ab7;
+  background: var(--brand-blue);
 }
 .faq-title h2 {
   font-family: 'Montserrat';
-  color: #673ab7;
+  color: var(--brand-blue);
   font-size: 17px;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
 .faq-title svg {
-  color: #673ab7;
+  color: var(--brand-blue);
 }
 .faq-title:hover.faq-title h2 {
   color: white !important;
@@ -3419,7 +3422,7 @@ section.dashboard-section {
 .hero_content_wrap h1 {
   font-family: 'bot';
   font-weight: 600;
-  font-size: 68px;
+  font-size: 45px;
   line-height: 68px;
   letter-spacing: -0.03em;
 }
@@ -3437,16 +3440,15 @@ section.dashboard-section {
   color: var(--brand-green);
 }
 .hero_buttons {
-
 }
-.hero_buttons .hero-service-button{
+.hero_buttons .hero-service-button {
   background: var(--brand-blue);
   transition: all 0.3s ease-in-out;
 }
 .hero_buttons .hero-service-button:hover {
   transform: translateY(-3px);
 }
-.hero_buttons .hero-contact-button{
+.hero_buttons .hero-contact-button {
   border: var(--brand-green);
   color: var(--brand-blue) !important;
   transition: all 0.3s ease-in-out;
@@ -3455,7 +3457,7 @@ section.dashboard-section {
   transform: translateY(-3px);
   color: white !important;
 }
-.hero_buttons .hero-contact-button:hover .hero-contact-button a{
+.hero_buttons .hero-contact-button:hover .hero-contact-button a {
   color: white !important;
 }
 
@@ -3484,7 +3486,7 @@ section.dashboard-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  grid-gap: 30px;
+  grid-gap: 20px;
   width: 100%;
 }
 .column_content_wrap h2 {
@@ -3492,10 +3494,8 @@ section.dashboard-section {
   line-height: 52px;
 }
 .column_content_wrap p {
-
-} 
+}
 .column_buttons {
-
 }
 
 /* Brand section */
@@ -3508,7 +3508,7 @@ section.dashboard-section {
 .brand_title {
   margin: 35px 0px;
 }
-.brand_title h2{
+.brand_title h2 {
   color: #080f1a;
   font-weight: 500;
   white-space: pre-line;
@@ -3525,11 +3525,11 @@ section.dashboard-section {
 .brand_item {
   /* margin: 16px 24px; */
 }
-.brand_item img{
+.brand_item img {
   width: 195px;
   aspect-ratio: auto 195 / 32;
   height: 32px;
-} 
+}
 .column_content_btn {
   padding: 12px 30px;
   font-size: 16px;
@@ -3563,7 +3563,7 @@ section.dashboard-section {
 .int_thumb {
   width: 100%;
 }
-.int_thumb img{
+.int_thumb img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -3581,7 +3581,12 @@ section.dashboard-section {
   color: #676767;
 }
 .int_title h2 {
-  font-size: 23px;
+  color: var(--blackColor);
+  font-weight: 700;
+  font-family: bot;
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 /* why choose section */
@@ -3595,21 +3600,22 @@ section.dashboard-section {
 .why_choose_item {
   padding: unset;
 }
-.why_choose_item .int_thumb{
-  
+.why_choose_item .int_thumb {
+  width: 160px;
+  margin: auto;
 }
-.why_choose_item .int_content{
+.why_choose_item .int_content {
   margin-top: 10px;
   padding: 10px;
   padding-bottom: 30px;
 }
-.why_choose_item .int_content p{
+.why_choose_item .int_content p {
   font-size: 16px;
+  text-align: justify;
 }
 
 /* rotating text */
 .home {
-  
 }
 .home h3 {
   font-size: 52px;
@@ -3682,89 +3688,91 @@ section.dashboard-section {
 }
 /*Cubical Flipping or rotation*/
 @-webkit-keyframes spincube {
-  from, to {
+  from,
+  to {
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
- }
+  }
   15% {
     -webkit-transform: rotateX(90deg);
- }
+  }
   25% {
     -webkit-transform: rotateX(90deg);
- }
+  }
   40% {
     -webkit-transform: rotateX(180deg);
- }
+  }
   50% {
     -webkit-transform: rotateX(180deg);
- }
+  }
   65% {
     -webkit-transform: rotateX(270deg);
- }
+  }
   75% {
     -webkit-transform: rotateX(270deg);
- }
+  }
   95% {
     -webkit-transform: rotateX(360deg);
- }
+  }
   100% {
     -webkit-transform: rotateX(360deg);
- }
+  }
 }
 @keyframes spincube {
-  from, to {
+  from,
+  to {
     -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
     -ms-transform: rotateX(0deg);
     transform: rotateX(0deg);
- }
+  }
   15% {
     -webkit-transform: rotateX(90deg);
     -moz-transform: rotateX(90deg);
     -ms-transform: rotateX(90deg);
     transform: rotateX(90deg);
- }
+  }
   25% {
     -webkit-transform: rotateX(90deg);
     -moz-transform: rotateX(90deg);
     -ms-transform: rotateX(90deg);
     transform: rotateX(90deg);
- }
+  }
   40% {
     -webkit-transform: rotateX(180deg);
     -moz-transform: rotateX(180deg);
     -ms-transform: rotateX(180deg);
     transform: rotateX(180deg);
- }
+  }
   50% {
     -webkit-transform: rotateX(180deg);
     -moz-transform: rotateX(180deg);
     -ms-transform: rotateX(180deg);
     transform: rotateX(180deg);
- }
+  }
   65% {
     -webkit-transform: rotateX(270deg);
     -moz-transform: rotateX(270deg);
     -ms-transform: rotateX(270deg);
     transform: rotateX(270deg);
- }
+  }
   75% {
     -webkit-transform: rotateX(270deg);
     -moz-transform: rotateX(270deg);
     -ms-transform: rotateX(270deg);
     transform: rotateX(270deg);
- }
+  }
   90% {
     -webkit-transform: rotateX(360deg);
     -moz-transform: rotateX(360deg);
     -ms-transform: rotateX(360deg);
     transform: rotateX(360deg);
- }
+  }
   100% {
     -webkit-transform: rotateX(360deg);
     -moz-transform: rotateX(360deg);
     -ms-transform: rotateX(360deg);
     transform: rotateX(360deg);
- }
+  }
 }
 
 .mobile-header-right {
@@ -3804,8 +3812,9 @@ section.dashboard-section {
 }
 .demo-wrapper {
   display: grid;
-  grid-template-columns: 6fr 4fr;
+  grid-template-columns: 4fr 4fr;
   grid-gap: 50px;
+  align-items: center;
 }
 .demo-content {
   width: 100%;
@@ -3832,15 +3841,13 @@ section.dashboard-section {
   align-items: flex-start;
   grid-gap: 15px;
 }
-.demo-list-thumb svg{
+.demo-list-thumb svg {
   font-size: 26px;
   color: #009688;
 }
 .demo-list-content {
-
 }
 .demo-list-content h3 {
-
 }
 .demo-list-content p {
   margin-top: 5px;
@@ -3870,7 +3877,6 @@ section.dashboard-section {
   grid-gap: 14px;
 }
 .form-group {
-
 }
 .form-group input {
   width: 100%;
@@ -3904,7 +3910,7 @@ section.dashboard-section {
   font-weight: 500;
 }
 .demo-submit {
-  background: var(--brand-blue);
+  background: var(--secondary-bg);
   padding: 12px;
   border-radius: 30px;
   font-size: 21px;
@@ -3913,8 +3919,12 @@ section.dashboard-section {
 
 /* integration and brand section */
 .int-brand-section {
+  padding: 30px 0px;
+}
+.container-box {
   background: #d9d9d942;
-  padding: 50px 0px;
+  padding: 30px;
+  border-radius: 10px;
 }
 .int-brand-wrapper {
   display: flex;
@@ -3937,7 +3947,7 @@ section.dashboard-section {
   justify-content: center;
   align-items: center;
 }
-.int-brand-col-item img{
+.int-brand-col-item img {
   width: 40px;
   height: auto;
 }
@@ -3956,7 +3966,7 @@ section.dashboard-section {
   align-items: center;
   box-shadow: 0px 0px 6px 0px lightgray;
 }
-.int-brand-all-item img{
+.int-brand-all-item img {
   width: 80px;
   height: auto;
 }
@@ -3969,8 +3979,86 @@ section.dashboard-section {
   font-size: 30px;
 }
 .int-brand-title p {
-
 }
 .image-float-right {
   flex-direction: row-reverse;
+}
+.col_6 {
+  width: 100%;
+}
+.analytics_dashboard {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+  justify-content: flex-start;
+}
+.brand-color {
+  color: var(--brand-blue);
+}
+.pricing-get-demo-btn {
+  padding: 11px;
+  border-radius: 30px;
+  background: var(--brand-blue);
+  color: white;
+  text-align: center;
+  width: 195px;
+  margin: 18px auto;
+  font-family: 'bot';
+  font-size: 17px;
+  font-weight: 400;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+h3.plan-name {
+  clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
+  width: 268px;
+  padding: 18px 0 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 600;
+  position: absolute;
+  top: -100px;
+  border-radius: 8px;
+  background-image: url(https://www.haptik.ai/hubfs/pink-pentagon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 72px;
+  color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ai-style h3.plan-name {
+  background-image: url(https://www.haptik.ai/hubfs/skyblue-pentagon.svg);
+}
+
+.analysis-style h3.plan-name {
+  background-image: url(https://www.haptik.ai/hubfs/yellow-pentagonal.svg);
+}
+
+.enterprice-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+}
+.enterprice-wrap h3 {
+  font-size: 30px;
+}
+.pricing-logo {
+  width: 125px;
+  margin-top: 20px;
+}
+.pricing-logo img {
+  width: 100%;
+  height: auto;
+}
+.pricing-review {
+  width: 100px;
+}
+
+.pricing-review img {
+  width: 100%; 
+  height: auto;
 }

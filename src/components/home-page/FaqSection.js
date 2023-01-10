@@ -18,15 +18,15 @@ const faq = [
   },
   {
     question: 'Are chatbots free?',
-    answer: 'With Tidio free plan, you can use chatbots to reach up to 100 unique visitors per month. Once your business grows and your website starts attracting significant traffic, you can upgrade to one of our paid plans that expand your chatbot reach to even an unlimited number of monthly visitors.'
+    answer: 'No, But we provide customize plans to suit your needs.'
   },
   {
     question: 'Do I need to know coding to build a chatbot?',
-    answer: 'You don’t need any coding skills to build chatbots. With an advanced customer service platform, like Tidio, you can easily create and customize chatbots by yourself, without coding.'
+    answer: 'You don’t need any coding skills to build chatbots. With an advanced customer service platform, like ACEVA, you can easily create and customize chatbots by yourself, without coding.'
   },
   {
     question: 'How to make a chatbot?',
-    answer: 'As soon as you have your Tidio account, you gain unlimited access to canned chatbot templates that you can activate with just a few clicks. If you’d like to create a chatbot from scratch, you can use our easy-to-use bot builder with a visual editor.'
+    answer: 'As soon as you have your ACEVA account, our technical consultant will go through your business needs and provide a suitable chatbot solution.'
   },
   {
     question: 'What are the benefits of using chatbots?',
@@ -52,7 +52,7 @@ function FaqSection() {
 
         {/* title */}
         <div className='section-title'>
-          <span className='sub-title purple-color'>FAQ</span>
+          {/* <span className='sub-title purple-color'>FAQ</span> */}
           <h2>Frequently asked questions</h2>
         </div>
 

@@ -3,14 +3,10 @@ import { BsCheck2, BsX } from 'react-icons/bs'
 
 // import images
 import axios from 'axios'
-import { emojiCountryCode } from 'country-code-emoji'
 import React, { useState } from 'react'
-import analysis from '../assets/images/icons/analysis.png'
-import ai from '../assets/images/icons/artificial-intelligence.png'
-import chatbot from '../assets/images/icons/robot.png'
 import Footer from '../components/footer'
 import Header from '../components/header/Header'
-import flag from 'country-code-emoji';
+import { Link } from 'react-router-dom'
 
 function PricingScreen() {
 
@@ -37,7 +33,7 @@ function PricingScreen() {
 
             {/* title */}
             <div className='section-title'>
-              <span className='sub-title purple-color'>Our Affortable Pricing</span>
+              {/* <span className='sub-title purple-color'>Our Affortable Pricing</span> */}
               <h2>Goal-oriented pricing that scales with you</h2>
             </div>
 
@@ -59,16 +55,17 @@ function PricingScreen() {
                   <img src={chatbot} alt="comment" />
                 </div> */}
                 <div className="text-center border-bottom">
-                  <div className="plan-name">Standard</div>
+                  <h3 className="plan-name">Standard</h3>
                   <div className="discriptive">Perfect for Small Businesses</div>
-                  <div className="price">
+                  <Link to="/demo"><button className="pricing-get-demo-btn">Get a Demo</button></Link>
+                  {/* <div className="price">
                     <span className="notranslate">
                       <span>$</span>
                       <span className="livechat-adv-numb">20</span>
                       <span className="regular-price"><sub>$220</sub></span>
                     </span>
                   </div>
-                  <div className="plan-det">Per Agent/Month</div>
+                  <div className="plan-det">Per Agent/Month</div> */}
                 </div>
                 <div className="pricing-features">
                   <ul>
@@ -101,16 +98,17 @@ function PricingScreen() {
                     <img src={ai} alt="comment" />
                   </div> */}
                   <div className="text-center border-bottom">
-                    <div className="plan-name">Advanced</div>
+                    <h3 className="plan-name">Advanced</h3>
                     <div className="discriptive">Ideal for Growing Businesses</div>
-                    <div className="price">
+                    <Link to="/demo"><button className="pricing-get-demo-btn">Get a Demo</button></Link>
+                    {/* <div className="price">
                       <span className="notranslate">
                         <span>$</span>
                         <span className="livechat-adv-numb">50</span>
                         <span className="regular-price"><sub>$310</sub></span>
                       </span>
                     </div>
-                    <div className="plan-det">Per Agent/Month</div>
+                    <div className="plan-det">Per Agent/Month</div> */}
                     
                   </div>
                   <div className="pricing-features">
@@ -144,32 +142,27 @@ function PricingScreen() {
                       <img src={analysis} alt="comment" />
                     </div> */}
                     <div className="text-center border-bottom">
-                      <div className="plan-name">Enterprise</div>
+                      <h3 className="plan-name">Enterprise</h3>
                       <div className="discriptive">Best for Enterprise Teams</div>
-                      <div className="price">
+                      <Link to="/demo"><button className="pricing-get-demo-btn">Get a Demo</button></Link>
+                      {/* <div className="price">
                         <span className="notranslate">
                           <span>$</span>
                           <span className="livechat-adv-numb">70</span>
                           <span className="regular-price"><sub>$420</sub></span>
                         </span>
                       </div>
-                      <div className="plan-det">Per Agent/Month</div>
+                      <div className="plan-det">Per Agent/Month</div> */}
 
                     </div>
-                    <div className="pricing-features">
-                      <ul>
-                        <li> <BsCheck2 /> Facebook Messenger</li>
-                        <li> <BsCheck2 /> Department Management</li>
-                        <li> <BsCheck2 /> Auto Triggers</li>
-                        <li> <BsCheck2 /> Proactive Chat</li>
-                        <li> <BsCheck2 /> Chat Monitoring</li>
-                        <li> <BsCheck2 /> Canned Response </li>
-                        <li> <BsCheck2 /> File Transfer</li>
-                        <li> <BsCheck2 /> Chat Transfer</li>
-                        <li> <BsCheck2 /> Single Website Integration</li>
-                        <li> <BsCheck2 /> Bit 256 SSL Encryption</li>
-                        <li> <BsCheck2 /> See all features</li>
-                      </ul>
+                    <div className="pricing-features enterprice-wrap">
+                        <div className="pricing-logo">
+                          <img src="http://localhost:3000/static/media/aceva.023c6ceea74e217ff5bc.png" alt="" />
+                        </div>
+                        {/* <div className="pricing-review">
+                          <img src="https://www.haptik.ai/hubfs/3star.png" alt="review" />
+                        </div> */}
+                        <h3>For Enterprise Customers</h3>
                     </div>
                     <button className='pricing-buy-button'>Enquire Now</button>
                 </div>

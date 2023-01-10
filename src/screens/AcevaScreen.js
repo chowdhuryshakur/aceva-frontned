@@ -28,11 +28,11 @@ function AcevaScreen() {
         <Column_Section2 />
         <Column_Section3 />
         {/* <Integrate_Section /> */}
-        <Why_Choose_Section />
         <Integrate_Brand_Section />
-        <FeaturedAreaSection />
-        {/* <WhatWeDoSection /> */}
+        <Why_Choose_Section />
         <TestimonialSection />
+        {/* <FeaturedAreaSection /> */}
+        {/* <WhatWeDoSection /> */}
         <FaqSection />
         <NewsLetterSection />
       <Chatbot />

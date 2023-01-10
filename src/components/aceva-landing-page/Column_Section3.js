@@ -10,16 +10,17 @@ function Column_Section3() {
 
             {/* content */}
             <div className='col_6'>
-              <div className='column_content_wrap'>
+              <div className='column_content_wrap analytics_dashboard'>
                 <h2>Real-time notification</h2>
                 
-                <p>Offer 24/7 AI-driven customer care for instant, seamless query resolution.</p>
-                <p>Notify you real time via mobile at anytime wherever you are. Set your conditions and get a latest update about your business with whatsapp or telegram.</p>
-                <div className='column_buttons'>
+                <p>Get mobile notification anytime, anywhere. </p>
+                <p>Set your conditions and get notified through a variety of channels, such as email, SMS, or push notifications on a smartphone or other device. </p>
+                <p>Help users stay informed and up-to-date on important events and changes.</p>
+                {/* <div className='column_buttons'>
                   <a href='/'>
                     <button className='btn column_content_btn'>Learn more</button>
                   </a>
-                  </div>
+                  </div> */}
               </div>
             </div>
 

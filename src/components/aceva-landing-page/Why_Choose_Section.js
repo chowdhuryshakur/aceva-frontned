@@ -1,7 +1,7 @@
 import React from 'react'
-import bestClass from '../../assets/images/why-choose/best in class ai-1.png'
-import analytics from '../../assets/images/why-choose/powerful-analytics-1.png'
-import readytogo from '../../assets/images/why-choose/ready to go-1.png'
+import bestClass from '../../assets/images/why-choose/why-choose-ai.png'
+import acevaBg from '../../assets/images/why-choose/why-choose-wip.png'
+import readytogo from '../../assets/images/why-choose/why-choose-analytics.png'
 function Why_Choose_Section() {
   return (
     <section className="integrate_section why_choose_section">
@@ -9,8 +9,13 @@ function Why_Choose_Section() {
 
         {/* title */}
         <div className="brand_title int_title">
-          <h2>Why Should You Choose ACEVA?</h2>
+          <h2>Why <span className="brand-color">ACEVA? </span></h2>
         </div>
+
+        {/* title */}
+        {/* <div className="int-brand-title">
+        <h2>Why <span className="brand-color">ACEVA? </span></h2>
+        </div> */}
 
         {/* wrapper */}
         <div className="integrate_wrapper why_choose_wrapper">
@@ -18,7 +23,7 @@ function Why_Choose_Section() {
           {/* item */}
           <div className="integrate_item why_choose_item">
             <div className="int_thumb">
-              <img src={analytics} alt="" />
+              <img src={readytogo} alt="" />
             </div>
             <div className="int_content">
               <h3>Process Automation</h3>
@@ -40,7 +45,7 @@ function Why_Choose_Section() {
           {/* item */}
           <div className="integrate_item why_choose_item">
             <div className="int_thumb">
-              <img src={readytogo} alt="" />
+              <img src={acevaBg} alt="" />
             </div>
             <div className="int_content">
               <h3>Best class AI</h3>

@@ -19,8 +19,8 @@ function Column_Section() {
               <div className='column_content_wrap'>
                 <h2>Intuitive conversational with Artificial Intelligence</h2>
                 
-                <p>Use AI Conversational to answer in-the-moment queries and generate leads instantly while increasing ROAS. </p>
-                <p>Set up one-time or create recurring Bulk Campaigns to expand reach and amplify customer engagement.</p>
+                <p>Use AI powered engine to answer queries in more natural and human-like conversations. </p>
+                <p>Make it easier to communicate with systems in a way that feels familiar and intuitive. These AI-powered conversation tools can help businesses improve the user experience and automate tasks such as customer service and data entry.</p>
                 {/* <div className='column_buttons'>
                   <a href='/admin'>
                     <button className='btn column_content_btn'>See it in action</button>

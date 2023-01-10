@@ -16,42 +16,44 @@ function Integrate_Brand_Section() {
     <>
       <section className="int-brand-section">
         <div className="container">
-          <div className="int-brand-title">
-            <h2>ACEVA integrates with all your work tools</h2>
-            <p>Connect ACEVA to dozen of tools and platforms in less than 5 minutes</p>
-          </div>
-          <div className="int-brand-wrapper">
-            <div className="int-brand-two-col-wrap">
-              <div className="int-brand-col-item">
-                <img src={WhatsApp} alt="" />
-              </div>
-              <div className="int-brand-col-item">
-                <img src={Telegram} alt="" />
-              </div>
+          <div className="container-box">
+            <div className="int-brand-title">
+              <h2>ACEVA integrates with all your work tools</h2>
+              <p>Connect ACEVA to dozens of tools and platforms in less than 5 minutes</p>
             </div>
+            <div className="int-brand-wrapper">
+              <div className="int-brand-two-col-wrap">
+                <div className="int-brand-col-item">
+                  <img src={WhatsApp} alt="" />
+                </div>
+                <div className="int-brand-col-item">
+                  <img src={Telegram} alt="" />
+                </div>
+              </div>
 
-            {/* all logo wrapper */}
-            <div className="int-brand-all-wrapper">
-              <div className="int-brand-all-item">
-                <img src={dynamic} alt="" />
-              </div>
-              <div className="int-brand-all-item">
-                <img src={infor} alt="" />
-              </div>
-              <div className="int-brand-all-item">
-                <img src={oracle} alt="" />
-              </div>
-              <div className="int-brand-all-item">
-                <img src={sap} alt="" />
-              </div>
-              <div className="int-brand-all-item">
-                <img src={robocrop} alt="" />
-              </div>
-              <div className="int-brand-all-item">
-                <img src={sage} alt="" />
-              </div>
-              <div className="int-brand-all-item">
-                <img src={salesforce} alt="" />
+              {/* all logo wrapper */}
+              <div className="int-brand-all-wrapper">
+                <div className="int-brand-all-item">
+                  <img src={dynamic} alt="" />
+                </div>
+                <div className="int-brand-all-item">
+                  <img src={infor} alt="" />
+                </div>
+                <div className="int-brand-all-item">
+                  <img src={oracle} alt="" />
+                </div>
+                <div className="int-brand-all-item">
+                  <img src={sap} alt="" />
+                </div>
+                <div className="int-brand-all-item">
+                  <img src={robocrop} alt="" />
+                </div>
+                <div className="int-brand-all-item">
+                  <img src={sage} alt="" />
+                </div>
+                <div className="int-brand-all-item">
+                  <img src={salesforce} alt="" />
+                </div>
               </div>
             </div>
           </div>

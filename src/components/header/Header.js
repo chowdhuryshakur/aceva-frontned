@@ -60,7 +60,7 @@ function Header() {
           <nav className={menuToggle ? "active" : ""}>
             <BsXLg onClick={() => setMenuToggle(!menuToggle)} className='cross-mobile-navbar desktop-hide' />
             <ul className='navbar-wrappper'>
-              <li className='nav-item'><Link to='/' className='nav-link'>Home</Link></li>
+              {/* <li className='nav-item'><Link to='/' className='nav-link'>Home</Link></li> */}
               <li className='nav-item'><Link to='/aceva' className='nav-link'>ACEVA</Link></li>
               <li className='nav-item'><Link to='/pricing' className='nav-link'>Pricing</Link></li>
               <li className='nav-item'><Link to='/blog' className='nav-link'>Blog</Link></li>

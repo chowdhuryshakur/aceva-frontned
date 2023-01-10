@@ -27,8 +27,8 @@ function TestimonialSection() {
 
             {/* title */}
             <div className='section-title'>
-              <span className='sub-title purple-color'>Testimonials</span>
-              <h2>Happy Client Reviews</h2>
+              {/* <span className='sub-title purple-color'>Testimonials</span> */}
+              <h2>Testimonials</h2>
             </div>
 
             <Swiper
@@ -84,7 +84,7 @@ function TestimonialSection() {
                       <p>Founder & CEO</p>
                     </div>
                   </div>
-                  <p> <RiDoubleQuotesL className='quote-icon' /> I love how easy ACEVA is to set up. I was up and running in less than 10 minutes AND that included chatting with their amazing tech support. We are starting with free, see how we do then upgrade! <RiDoubleQuotesR className='quote-icon' />
+                  <p> <RiDoubleQuotesL className='quote-icon' /> I love how easy ACEVA is to set up. I was up and running in less than 10 minutes AND that included chatting with their amazing tech support. <RiDoubleQuotesR className='quote-icon' />
                   </p>
 
                   <ul className='review-wrap'>
@@ -132,7 +132,7 @@ function TestimonialSection() {
                       <p>Managing director - Daraz</p>
                     </div>
                   </div>
-                  <p> <RiDoubleQuotesL className='quote-icon' /> The automation - hands down. I use Tidio all the time and suggest it to my clients for its ease of use and excellent support. I've not used it yet with shopping carts but I can really imagine it being awesome - will definately test it out.<RiDoubleQuotesR className='quote-icon' />
+                  <p> <RiDoubleQuotesL className='quote-icon' /> The automation - hands down. I use ACEVA all the time and suggest it to my clients for its ease of use and excellent support. I've not used it yet with shopping carts but I can really imagine it being awesome - will definately test it out.<RiDoubleQuotesR className='quote-icon' />
                   </p>
 
                   <ul className='review-wrap'>

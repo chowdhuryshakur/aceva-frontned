@@ -24,7 +24,7 @@ function App() {
     <BrowserRouter>
     <ScrollToTop />
       <Routes>
-        <Route path="/" element={<HomeScreen />} />
+        <Route path="/" element={<AcevaScreen />} />
         <Route path="/login" element={<LoginScreen />} />
         <Route path="/admin" element={<AdminScreen />} />
         <Route path="/dashboard" element={<DashboardScreen />} />

@@ -14,10 +14,12 @@ function Column_Section2() {
 
             {/* content */}
             <div className='col_6'>
-              <div className='column_content_wrap'>
+              <div className='column_content_wrap analytics_dashboard'>
                 <h2>Business Insights with analytics dashboard</h2>
                 
-                <p>Analytics dashboard with all the information that matters. Connect to your database and visualize your insight with our dashboard tools.</p>
+                <p>Analytics dashboard with all the information that matters. </p>
+                <p>ACEVA help businesses understand their data, identify trends and patterns, and make data-driven decisions to improve operations and drive growth.</p>
+                <p> Connect to the database and visualize your insights with our dashboard tools.</p>
                 
                 {/* <div className='column_buttons'>
                   <a href='/'>

@@ -71,17 +71,17 @@ function DemoScreen() {
 
             </div>
 
-            <div className="demo-brand-wrapper">
-              <h2>Trusted by the World's Leading Brands</h2>
-                <div className="demo-brand_wrap">
+              {/* <div className="demo-brand-wrapper">
+                <h2>Trusted by the World's Leading Brands</h2>
+                  <div className="demo-brand_wrap">
 
-                  {/* item */}
-                  <div className="brand_item demo-brand-item">
-                    <img src={brand1} alt="chatimize" />
+                    <div className="brand_item demo-brand-item">
+                      <img src={brand1} alt="chatimize" />
+                    </div>
+
                   </div>
-
-                </div>
-            </div>
+              </div> */}
+              
           </div>
 
           {/* form */}
